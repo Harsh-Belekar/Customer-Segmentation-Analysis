@@ -1,4 +1,4 @@
-# 📊 Customer Segmentation Visualization & Advanced Analysis
+# 📊 Customer Segmentation Analysis
 
 This project was completed as part of a **Business Analyst Internship at Saiket Systems**.  
 It focuses on analyzing **customer churn behavior** in a telecommunications company using **data analysis, visualization, and business insights** to identify at-risk customers and recommend retention strategies.
@@ -27,12 +27,22 @@ The primary objective of this project is to:
 ## 📁 Project Folder Structure
 
 ```
-├── Customer Segmentation Analysis.ipynb
-├── Customer_Segmentation_Churn_Dashboard.pbix
-├── Customer_Segmentation_Churn_Dashboard.pdf
 ├── README.md
+│
 ├── requirements.txt
-├── Telco_Customer_Churn_Dataset.csv
+│
+├── Dashboard/
+│    └── Customer_Segmentation_Churn_Dashboard.pbix
+│
+├── Data/
+│    └── Telco_Customer_Churn_Dataset.csv
+│
+├── Docs/
+│    └── Customer_Segmentation_Churn_Dashboard.pdf
+│
+├── Notebook/ 
+│    └── Customer Segmentation Analysis.ipynb
+│
 └── images/
     ├── 01_Churn_vs_Non-Churn_Distribution.png
     ├── 02_Tenure_Distribution.png
